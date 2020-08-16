@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "declaration": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/", "./typings"],
+  "exclude": ["node_modules"]
+}
