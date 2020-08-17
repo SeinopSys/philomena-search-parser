@@ -1,8 +1,10 @@
 # philomena-search-parser
 
-A no-dependency search query parser for the Philomena imageboard project
+A PEG.js-based search query parser for the Philomena imageboard project
 
 ## Installation
+
+> ⚠ Not actually available as an NPM package just yet
 
 ```bash
 npm i philomena-search-parser
